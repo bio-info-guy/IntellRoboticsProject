@@ -1,10 +1,11 @@
 # Project Report
 
-**Yangqi Su 800957989**
+**Yangqi Su**
 
 ## SHOWCASE URL
 
 https://sites.google.com/d/1EIyaS9tptFuEI33ad2DbSjbZd39qca0g/edit
+
 ---
 
 ## Context
