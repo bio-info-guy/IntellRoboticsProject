@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+  <rosparam command="load" file="$(find spatial6r_description)/launch/init_config.yaml" />
+  <arg name="model" default="$(find spatial6r_description)/urdf/spatial6r_model.urdf"/>
+  <param name="robot_description" command="$(find xacro)/xacro $(arg model)" />
+
+  <!-- Combine joint values -->
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher"/>
+    <node pkg="spatial6r_kinematics" type="spatial6r_kinematics_ballMover" name="ballMover" />
+    <node pkg="spatial6r_kinematics" type="spatial6r_kinematics_armTraj" name="armTraj" />
+    <node pkg="spatial6r_kinematics" type="spatial6r_kinematics_geometry_shapes" name="geometry_shapes" /> 
+  <!-- <node pkg="spatial3r_kinematics" type="spatial6r_kinematics_plotXY.py" name="plotXY" /> -->
+  <!-- send joint values -->
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
+	<param name="use_gui" value="True"/>
+  </node>
+    
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find spatial6r_description)/launch/config.rviz"/>
+    
+</launch>

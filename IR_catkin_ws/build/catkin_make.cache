@@ -1,0 +1,2 @@
+spatial6r_description:spatial6r_kinematics
+-DCATKIN_DEVEL_PREFIX=/home/ysu/IntelTutorials/tutorial_4/Robotics_Project/IR_catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ysu/IntelTutorials/tutorial_4/Robotics_Project/IR_catkin_ws/install -G Unix Makefiles

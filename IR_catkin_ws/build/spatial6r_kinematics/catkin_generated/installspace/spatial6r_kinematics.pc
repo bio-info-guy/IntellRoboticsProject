@@ -1,0 +1,8 @@
+prefix=/home/ysu/IntelTutorials/tutorial_4/Robotics_Project/IR_catkin_ws/install
+
+Name: spatial6r_kinematics
+Description: Description of spatial6r_kinematics
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ysu/IntelTutorials/tutorial_4/Robotics_Project/IR_catkin_ws/install/lib 
+Requires: 
