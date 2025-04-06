@@ -4,7 +4,7 @@
 
 ## SHOWCASE URL
 
-https://sites.google.com/d/1EIyaS9tptFuEI33ad2DbSjbZd39qca0g/edit", "file_id": "1EIyaS9tptFuEI33ad2DbSjbZd39qca0g
+https://sites.google.com/d/1EIyaS9tptFuEI33ad2DbSjbZd39qca0g/edit
 ---
 
 ## Context
