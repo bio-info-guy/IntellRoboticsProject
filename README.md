@@ -1,11 +1,10 @@
-Below is the Markdown-formatted version of your PDF content:
-
---------------------------------------------------
-
 # Project Report
 
 **Yangqi Su 800957989**
 
+## SHOWCASE URL
+
+https://sites.google.com/d/1EIyaS9tptFuEI33ad2DbSjbZd39qca0g/edit", "file_id": "1EIyaS9tptFuEI33ad2DbSjbZd39qca0g
 ---
 
 ## Context
@@ -106,6 +105,3 @@ As of the current deadline, one 6 DOF robot arm has been implemented using kinem
 
 [1] Lynch, Kevin M., and Frank C. Park. *Modern Robotics*. Cambridge University Press, 2017.
 
---------------------------------------------------
-
-*End of Report*
